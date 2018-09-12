@@ -6,6 +6,10 @@ struct threeNum
     int n1, n2, n3;
 };
 
+
+/*
+ * Lendo valores do arquivo binário criado no exercício anterior
+ * */
 int main()
 {
     int n;
