@@ -17,9 +17,9 @@ int main()
     FILE *fptr;
 
     if ((fptr = fopen("program.bin","rb")) == NULL){
-        printf("Error! opening file");
+        printf("Erro ao abrir o arquivo.");
 
-        // Program exits if the file pointer returns NULL.
+        // Programa irá terminar caso não consiga abrir o arquivo.
         exit(1);
     }
 
